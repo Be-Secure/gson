@@ -4,12 +4,9 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ master ]
+    branches: [ gson-parent-2.10.1 ]
   pull_request:
-    branches: [ master ]
-  schedule:
-    # Run every Monday at 16:10
-    - cron: '10 16 * * 1'
+    branches: [ gson-parent-2.10.1 ]
 
 jobs:
   analyze:
