@@ -4,9 +4,9 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ gson-parent-2.10.1 ]
+    branches: [ "gson-parent-2.10.1" ]
   pull_request:
-    branches: [ gson-parent-2.10.1 ]
+    branches: [ "gson-parent-2.10.1" ]
 
 jobs:
   analyze:
